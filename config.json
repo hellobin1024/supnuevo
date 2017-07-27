@@ -1,0 +1,12 @@
+{
+  "devServer": {
+    "port":3000,
+    "hot":true,
+    "proxy":{
+      "/supnuevo/*":{
+        "model": "on",
+        "secure": false
+      }
+    }
+  }
+}
