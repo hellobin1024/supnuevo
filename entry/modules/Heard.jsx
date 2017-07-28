@@ -49,7 +49,7 @@ var Heard = React.createClass({
         contains =
             <div className="header">
                 <div className="container">
-                    supnuevo
+                    supnuevo-header
                 </div>
         </div>;
         return contains;

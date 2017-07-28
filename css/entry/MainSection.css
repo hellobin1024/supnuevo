@@ -1,0 +1,183 @@
+.templatemo_clear {
+    clear: both;
+}
+
+.height30 {
+    height: 30px;
+}
+
+.templatemo-top-bar {
+    min-height: 40px;
+    background-color:#eeeeee;
+}
+
+.templatemo-top-menu {
+    min-height:58px;
+    background-color:#ffffff;
+    z-index: 5000;
+    width:100%;
+}
+
+.templatemo-top-menu .navbar-toggle {
+    margin-top: 38px;
+}
+
+.templatemo-top-menu .navbar-brand {
+    padding: 0;
+    margin: 30px 0 0 0;
+}
+
+/* ------ pei ----- */
+
+#templatemo-pei {
+    background: url('../../build/images/templatemo_carousel_bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    margin-bottom:0;
+    height: 400px;
+}
+
+#templatemo-pei .pei-caption {
+    z-index: 10;
+}
+
+#templatemo-pei .item {
+    height: 400px;
+}
+#templatemo-pei .pei-inner > .item > img {
+    position: absolute;
+    min-width: 100%;
+    height: 400px;
+    left: 0;
+    top: 0;
+}
+
+@media (min-width: 768px) {
+    #templatemo-pei .pei-caption p {
+        margin-bottom: 20px;
+        line-height: 1.4;
+        font-size: 21px;
+    }
+
+    #templatemo-pei .pei-caption {
+        padding-bottom: 140px;
+        right: 20%;
+        left: 20%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #templatemo-pei .pei-caption {
+        padding-bottom: 120px;
+    }
+}
+
+/* ------ End of pei ----- */
+
+/* ------ Welcome & Slogna ------ */
+.templatemo-welcome {
+    border-bottom: 1px solid #cccccc;
+    min-height: 80px;
+}
+
+.templatemo-slogan {
+    font-family:  'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    /* margin: 22px 0; */
+    color: #333333;
+}
+
+.templatemo-service {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.templatemo-service-item {
+    font-family:  'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+.templatemo-service-item p {
+    font-weight: lighter;
+    text-align: justify;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #929292;
+}
+
+.subheader {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin-top: 12px;
+    font-size: 12px;
+    color: #e67e22;
+}
+
+
+.btn-orange {
+    background-color: #d35400;
+    border-bottom:2px solid #e6e0d0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color:#ffffff;
+}
+
+.btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .open .dropdown-toggle.btn-orange {
+    background-color: #ff7600;
+    color:#ffffff;
+}
+
+.btn-green {
+    background-color:#01514a;
+    border-bottom:2px solid #178275;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color:#ffffff;
+}
+
+.btn-green:hover, .btn-green:focus, .btn-green:active, .btn-green.active, .open .dropdown-toggle.btn-green {
+    background-color: #178275;
+    color:#ffffff;
+}
+
+.navbar-default {
+    background-color:#fff;
+    border:none;
+}
+
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+
+
+.txt_darkgrey {
+    color: #333333;
+}
+
+.txt_orange {
+    color: #dc2414;
+}
+
+.txt_slogan {
+    font-size:14px;
+    color:#929292;
+}
+#search {
+    width: 100%;
+    min-width: 1122px;
+    height: 455px;
+    background: url(../../build/images/search.png) no-repeat center;
+    position: relative;
+    text-align:center;
+}

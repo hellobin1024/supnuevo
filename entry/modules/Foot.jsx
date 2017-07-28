@@ -22,7 +22,7 @@ var Foot = React.createClass({
                 <div className="container">
                     <div className="footer-bottom-top-grids">
                         <div className="col-md-4 footer-bottom-left">
-                            <h4>supnuevo</h4>
+
                         </div>
                         <div className="clearfix"> </div>
                         <div className="copyright">

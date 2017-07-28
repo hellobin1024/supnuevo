@@ -12,7 +12,7 @@ var ContainSpace = React.createClass({
             <div className="banner-bottom">
                 <div className="container">
                     <div className="banner-bottom-grids">
-                        supnuevo
+                        supnuevo-contain
                     </div>
                 </div>
 
