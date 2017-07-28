@@ -2,7 +2,7 @@ import React from 'react';
 import {render} from 'react-dom';
 
 import Main from '../modules/MainPage'
-
+import ChineseLogin from  "../modules/ChineseLogin"
 
 var MainSection = React.createClass({
     iframeLoad:function(evt)
@@ -35,7 +35,9 @@ var MainSection = React.createClass({
             route.push(path);
             switch(path)
             {
-
+                case "chineselogin":
+                    ctrl = <ChineseLogin/>
+                    break;
                 default:
                     break;
             }
