@@ -68,6 +68,7 @@ var MainSection = React.createClass({
                                 <img src="images/phone.png"  alt="phone" />
                                 011-4857-0183
                             </div>
+
                             <div id="email" className="pull-right">
                                 <img src="images/email.png" alt="email" />
                                 info@supnuevo.com.ar
