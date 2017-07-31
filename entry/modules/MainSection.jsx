@@ -3,7 +3,6 @@ import {render} from 'react-dom';
 
 import Main from '../modules/MainPage'
 
-
 var MainSection = React.createClass({
     iframeLoad:function(evt)
     {
