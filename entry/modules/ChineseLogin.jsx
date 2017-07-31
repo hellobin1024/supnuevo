@@ -4,9 +4,13 @@ import {render} from 'react-dom';
 import "../../css/entry/modules/chineseLogin.css"
 
 
+
+
 var ChineseLogin = React.createClass({
 
-    render: function () {
+
+
+        render: function () {
         var contains = null;
         contains =
             <div>
