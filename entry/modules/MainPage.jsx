@@ -6,6 +6,10 @@ import "../../css/entry/modules/mainPage.css"
 
 var MainPage =React.createClass({
 
+
+    test:function (num) {
+    },
+
     render:function () {
         var contains=null;
             contains=
@@ -32,7 +36,7 @@ var MainPage =React.createClass({
                             <div className="navbar navbar-default" role="navigation">
                                 <div className="container">
                                     <div className="navbar-header">
-                                        <img src="images/templatemo_logo.png" />
+                                        <img src="images/templatemo_logo.png"  />
                                     </div>
                                 </div>
                             </div>
@@ -41,8 +45,8 @@ var MainPage =React.createClass({
                     { /*第三部分*/}
                     <div id="search">
                         <div className="pei-caption">
-                            <p><a className="btn btn-lg btn-orange" href="" role="button" style={{marginRight: '50px',marginBottom: '15px', textDecoration: 'none'}}>ESPAÑOL</a>
-                                <a className="btn btn-lg btn-orange" href="" role="button" style={{marginLeft: '50px',marginBottom: '15px', textDecoration: 'none'}}>>中文</a></p>
+                            <p><a className="btn btn-lg btn-orange" href="EspanolLogin" role="button" style={{marginRight: '50px',marginBottom: '15px', textDecoration: 'none'}}>ESPAÑOL</a>
+                                <a className="btn btn-lg btn-orange" href="ChineseLogin" role="button" style={{marginLeft: '50px',marginBottom: '15px', textDecoration: 'none'}}>>中文</a></p>
                         </div>
                     </div>
                     { /*第四部分*/}
