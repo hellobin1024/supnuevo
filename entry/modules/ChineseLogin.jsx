@@ -29,7 +29,7 @@ var ChineseLogin = React.createClass({
                     <table width="100%" border="0" cellPadding="0" cellSpacing="0">
                     <tr>
                         <td>
-                            <table width="100%" height="144" border="0" cellPadding="0" cellSpacing="0">
+                            <table  style={{marginLeft:'30%'}} width="100%" height="144" border="0" cellPadding="0" cellSpacing="0">
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td valign="top">
@@ -116,5 +116,10 @@ var ChineseLogin = React.createClass({
 
     return contains;
     },
+    componentWillMount:function () {
+        $(document).ready(function () {
+            document.body.style.backgroundColor = "#e6e0d0";
+        })
+    }
     })
     module.exports=ChineseLogin;

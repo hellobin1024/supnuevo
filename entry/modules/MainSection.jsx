@@ -1,13 +1,9 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-<<<<<<< HEAD
-import Main from '../modules/MainPage'
-=======
 import Main from '../modules/MainPage.jsx'
 import ChineseLogin from  '../modules/ChineseLogin.jsx'
 import EspanolLogin from  '../modules/EspanolLogin.jsx'
->>>>>>> 852398abfab2ffa7509176a1d9dfeb3a9105ce3f
 
 var MainSection = React.createClass({
     iframeLoad:function(evt)
