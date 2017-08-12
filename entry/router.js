@@ -18,8 +18,11 @@ class AppRouter extends Component {
                 <Route path="/" component={App}>
                     <IndexRoute  component={MainSection}/>
                     <Route path={window.App.getAppRoute() + "/"} component={MainSection}/>
+                    <Route path={window.App.getAppRoute() + "/mainpage"} component={MainSection}/>
                     <Route path={window.App.getAppRoute() + "/chineselogin"} component={MainSection}/>
                     <Route path={window.App.getAppRoute() + "/espanollogin"} component={MainSection}/>
+                    <Route path={window.App.getAppRoute() + "/registerchinese"} component={MainSection}/>
+                    <Route path={window.App.getAppRoute() + "/registerespanol"} component={MainSection}/>
                 </Route>
             </Router>
         )

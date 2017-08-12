@@ -1,0 +1,190 @@
+@CHARSET "UTF-8";
+body{margin:0;padding:0;font-size:12px;}
+#header{background:url(../../../build/images/bg.gif) repeat-x;  padding-top:5px;padding-bottom:6px;}
+#header .btn-black{color:white; text-decoration:none;  line-height: 75px;}
+#register .btn-black{color:white; text-decoration:none;  }
+
+#logo{float:left; margin-left:150px;}
+#help{float:right; color:#ffffff;margin-right:150px;}
+.clear1{clear:both;}
+#register{width:600px;
+    margin:0px auto;
+    padding:30px 0;}
+#register h1{text-lign:center; font-size:18px;}
+#register table{width:100%}
+#register #first_step.input-text{border:1px solid #999999;
+    width:150px;
+    height:30px;}
+#register .input-button{background:#ff7600; color:#ffffff; border-left:1px solid #ffffff; borser-top:1px solid #ffffff; border-right:1px solid #999999; border-bottom:1px solid #999999;}
+
+#login{width:550px; margin:0px auto; padding:30px 0;}
+
+div {
+    line-height: 18px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.end{
+    font-size:12px;
+    height: 42px;
+    line-height: 42px;
+    color: #ffffff;
+    z-index: 99;
+    text-align:center;
+    background-color:#7e231b;
+    width:100%;
+    position:fixed;
+    _position:absolute;
+    bottom:0px;
+    _bottom:0px;}
+/*    _margin-top:expression(this.style.pixelHeight+document.documentElement.scrollTop)}
+后来加的 --------------------------------------------------------------------------------*/
+#register #first_step table  td.info{
+    color: #666;
+    /* font-size: 14px; */
+    font-weight: bold;
+    /* line-height: 14px; */
+    float: right;
+    margin: 2px 2px;
+    width: 160px;
+    padding-top:10px;
+}
+/* 设置欢迎注册supnuevo */
+#register #first_step { display: none; }
+#register #first_step { display: block; }
+#register  h1, #register  h2 {
+    /*  font-size: Cantarell, Verdana, sans-serif;*/
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #222;
+    font-weight: bold;
+}
+#register h1 span { color: #a90329; }
+
+#register h2 {
+    color: #888;
+    font-size: 20px;
+    text-align: left;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+/* 设置整体的一些属性
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../fonts/Cantarell-Regular.eot);
+    src: local('Cantarell'), url('../fonts/Cantarell-Regular.ttf') format('truetype');
+} */
+
+body {
+    /*background-color: #e6e0d0;*/
+    color: #222;
+    font-family: Cantarell, Verdana, sans-serif;
+
+}
+
+
+#register {
+    background: url('../../../build/images/container.png') no-repeat;
+    width: 754px;
+    position: relative;
+}
+
+
+
+#register input, #register select {
+    background: url('../../../build/images/input.png') no-repeat;
+    color: #888;
+    border: 1px solid #ccc;
+    font-family: Cantarell, Verdana, sans-serif;
+    font-weight: bold;
+    width: 280px;
+    height: 30px;
+    margin: 6px 0;
+    float: left;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+#register #tableVerify{
+    width: 450px;
+
+}
+#register #verify{
+    color: #888;
+    border: 1px solid #ccc;
+    font-family: Cantarell, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+    padding: 0 25px;
+    margin: 6px 0;
+    float: left;
+
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+#register input.submit {
+    background: url('../../../build/images/send.png') no-repeat;
+    border: none;
+    cursor: pointer;
+    width: 85px;
+    height: 38px;
+    z-index:100;
+}
+
+
+#register #agree{
+    color: #888;
+    width: 12px;
+    height: 12px;
+    float: right;
+}
+#register .clause{color:#7e231b; text-decoration:none; }
+#register .clause2{color:#7e231b; text-decoration:none;}
+
+
+#register input.submit:focus { border: none; }
+
+#register input:focus, #register select:focus {
+    border: 1px solid #a90329;
+    color: #a90329;
+}
+#register select { padding: 5px 0 5px 25px; }
+#register option { padding: 0 15px; }
+
+#register #first_step tr td{
+    vertical-align: bottom;
+}
+
+
+#register .errorMessage{
+    color: #eb3d3d;
+    font-family: Cantarell, Verdana, sans-serif;
+    font-size: 12px;
+    padding: 0 0px;
+    margin: 12px 10px;
+    float: left;
+
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+#register #divTip1{
+    color: #323232;
+    font-family: Cantarell, Verdana, sans-serif;
+    font-size: 12px;
+    padding: 0 0px;
+    margin: 12px 10px;
+    float: left;
+
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}

@@ -53,6 +53,7 @@ var MainPage =React.createClass({
                     <div className="templatemo-welcome" id="templatemo-welcome">
                         <div className="container">
                             <div className="templatemo-slogan " style={{textAlign: 'center'}}>
+                                <br> </br>
                                 <span className="txt_darkgrey">BIENVENIDO A </span>
                                 <span className="txt_orange">SUPNUEVO</span>
                             </div>
@@ -63,5 +64,6 @@ var MainPage =React.createClass({
                 </div>
             return contains;
         },
+
 })
 module.exports=MainPage;

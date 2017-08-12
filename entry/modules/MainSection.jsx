@@ -4,6 +4,9 @@ import {render} from 'react-dom';
 import Main from '../modules/MainPage.jsx'
 import ChineseLogin from  '../modules/ChineseLogin.jsx'
 import EspanolLogin from  '../modules/EspanolLogin.jsx'
+import RegisterChinese from  '../modules/RegisterChinese.jsx'
+import RegisterEspanol from  '../modules/RegisterEspanol.jsx'
+
 
 var MainSection = React.createClass({
     iframeLoad:function(evt)
@@ -36,12 +39,22 @@ var MainSection = React.createClass({
             route.push(path);
             switch(path)
             {
+                case window.App.getAppRoute()+'/mainpage':
+                    ctrl = <Main/>
+                    break;
                 case window.App.getAppRoute()+'/chineselogin':
                     ctrl = <ChineseLogin/>
                    break;
                 case window.App.getAppRoute()+'/espanollogin':
                    ctrl = <EspanolLogin/>
                     break;
+                case window.App.getAppRoute()+'/registerchinese':
+                    ctrl = <RegisterChinese/>
+                    break;
+                case window.App.getAppRoute()+'/registerespanol':
+                    ctrl = <RegisterEspanol/>
+                    break;
+
                 default:
                     break;
             }
