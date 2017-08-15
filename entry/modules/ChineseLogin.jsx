@@ -14,6 +14,45 @@ var ChineseLogin = React.createClass({
     //     return null;
     // },
 
+    examplePost:function () {
+        var url = "/func/allow/getEventMemberByEventId";
+        var param={
+            id:33,
+            test:88
+        }
+        //var ref = this;
+        Proxy.query(
+            'POST',
+            url,
+            param,
+            null,
+            function (res) {
+                var a = res.data;
+            },
+            function (xhr, status, err) {
+                console.error(this.props.url, status, err.toString());
+            }
+        );
+
+    },
+
+    exampleGet:function () {
+        var url = "/func/allow/getEventMemberByEventId";
+        Proxy.query(
+            'GET',
+            url,
+            null,
+            null,
+            function (res) {
+                var a = res.data;
+            },
+            function (xhr, status, err) {
+                console.error(this.props.url, status, err.toString());
+            }
+        );
+
+    },
+
     login:function(){
         var ChineseLogin = $('#loginPage');
         var username = $(ChineseLogin).find("input[name='username']").val();
