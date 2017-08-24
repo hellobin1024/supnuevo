@@ -15,7 +15,7 @@ import {
 
 } from '../constants/UserConstants';
 var flag=0;
-export let loginAction=function(name,psw,validate,type,product){
+export let loginAction=function(name,psw,validate){
 
     return dispatch=> {
 
@@ -40,7 +40,7 @@ export let loginAction=function(name,psw,validate,type,product){
                     var loginName = res.loginName;
                     var personId = res.personId;
                     if(reCode==0){
-                        dispatch(getReCode(reCode,loginName,personId));
+                        dispatch(getReCode(1,loginName,personId));
                         // if(type=="1"){
 
                             // const path = "/order?product="+product;
@@ -61,6 +61,8 @@ export let loginAction=function(name,psw,validate,type,product){
                     console.error(this.props.url, status, err.toString());
                 }
             );
+            }else{
+                alert("请刷新页面后重新登录！");
             }
         });
 
@@ -111,17 +113,16 @@ export let loginStateAction=function(path){
 
         return new Promise((resolve, reject) => {
 
-            var url="/func/login/getLonginState";
-            var params={};
+            var url="/func/merchant/getLonginState";
             Proxy.query(
-                'get',
+                'GET',
                 url,
-                params,
+                null,
                 null,
                 function(res) {
-                    var reCode = res.reCode;
-                    var data = res.resList
-                    if(reCode==0){
+                    var reCode = res.re;
+                    var data = res.data;
+                    if(data!="-1"){
                         var loginName = data.loginName;
                         var personId = data.personId;
                         dispatch(getReCode(reCode,loginName,personId));

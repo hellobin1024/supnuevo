@@ -1,0 +1,39 @@
+[
+  {
+    "label": "Spanish",
+    "title": "Bienvenido a Supnuevo. FAVOR DE REGISTRARSE",
+    "type":"TIPO DE USUARIO:",
+    "typeOpt1":"COMPRADOR",
+    "typeOpt2":"VENDEDOR",
+    "nikename":"APODO:",
+    "email":"E-MAIL:",
+    "password":"CONTRASEÑA:",
+    "checkpsw":"REPETIR CONTRASEÑA:",
+    "pswprompt":"Debe constar de números y letras",
+    "verification":"CODIGO DE SEGURIDAD:",
+    "changevcode":"CAMBIAR COD.DE SEGURIDAD",
+    "agree":"ACEPTO",
+    "clause":"CONDICIONES LEGALES",
+    "regBut":"submit1"
+  },
+  {
+    "label": "Chinese",
+    "title1": "欢迎注册",
+    "title2": "supnuevo",
+    "type":"注册身份:",
+    "typeOpt1":"买方",
+    "typeOpt2":"卖方",
+    "nikename":"昵称:",
+    "email":"E-MAIL:",
+    "password":"密码:",
+    "checkpsw":"密码效验:",
+    "pswprompt":"密码只能由数字和字母组成",
+    "verification":"验证码:",
+    "changevcode":"看不清，换一张",
+    "agree":"同意",
+    "clause":"supnuevo服务条款",
+    "qqMsg":"网上社交工具及注册号:",
+    "regBut":"submit2"
+  }
+
+]

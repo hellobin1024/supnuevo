@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
-body{margin:0;padding:0;font-size:12px;}
-#header{background:url(../../../build/images/bg.gif) repeat-x;  padding-top:5px;padding-bottom:6px;}
+/*body{margin:0;padding:0;font-size:12px;}*/
+
 #header .btn-black{color:white; text-decoration:none;  line-height: 75px;}
 #register .btn-black{color:white; text-decoration:none;  }
 
@@ -19,36 +19,37 @@ body{margin:0;padding:0;font-size:12px;}
 
 #login{width:550px; margin:0px auto; padding:30px 0;}
 
-div {
-    line-height: 18px;
-    word-break: break-all;
-    word-wrap: break-word;
-}
+/*div {*/
+    /*line-height: 18px;*/
+    /*word-break: break-all;*/
+    /*word-wrap: break-word;*/
+/*}*/
 
-.end{
-    font-size:12px;
-    height: 42px;
-    line-height: 42px;
-    color: #ffffff;
-    z-index: 99;
-    text-align:center;
-    background-color:#7e231b;
-    width:100%;
-    position:fixed;
-    _position:absolute;
-    bottom:0px;
-    _bottom:0px;}
+/*.end{*/
+    /*font-size:12px;*/
+    /*height: 42px;*/
+    /*line-height: 42px;*/
+    /*color: #ffffff;*/
+    /*z-index: 99;*/
+    /*text-align:center;*/
+    /*background-color:#7e231b;*/
+    /*width:100%;*/
+    /*position:fixed;*/
+    /*_position:absolute;*/
+    /*bottom:0px;*/
+    /*_bottom:0px;}*/
 /*    _margin-top:expression(this.style.pixelHeight+document.documentElement.scrollTop)}
 后来加的 --------------------------------------------------------------------------------*/
 #register #first_step table  td.info{
     color: #666;
-    /* font-size: 14px; */
+    font-size: 12px;
     font-weight: bold;
-    /* line-height: 14px; */
+    line-height: 18px;
     float: right;
     margin: 2px 2px;
     width: 160px;
-    padding-top:10px;
+    padding-top: 10px;
+    text-align: right;
 }
 /* 设置欢迎注册supnuevo */
 #register #first_step { display: none; }
@@ -77,12 +78,12 @@ div {
     src: local('Cantarell'), url('../fonts/Cantarell-Regular.ttf') format('truetype');
 } */
 
-body {
-    /*background-color: #e6e0d0;*/
-    color: #222;
-    font-family: Cantarell, Verdana, sans-serif;
+/*body {*/
+    /*!*background-color: #e6e0d0;*!*/
+    /*color: #222;*/
+    /*font-family: Cantarell, Verdana, sans-serif;*/
 
-}
+/*}*/
 
 
 #register {
@@ -129,7 +130,16 @@ body {
     -webkit-border-radius: 6px;
 }
 
-#register input.submit {
+#register input.submit1 {
+    background: url('../../../build/images/sendEspanol.png') no-repeat;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 38px;
+    z-index:100;
+}
+
+#register input.submit2 {
     background: url('../../../build/images/send.png') no-repeat;
     border: none;
     cursor: pointer;
@@ -137,7 +147,6 @@ body {
     height: 38px;
     z-index:100;
 }
-
 
 #register #agree{
     color: #888;
@@ -168,7 +177,7 @@ body {
     font-family: Cantarell, Verdana, sans-serif;
     font-size: 12px;
     padding: 0 0px;
-    margin: 12px 10px;
+    margin: 9px 10px;
     float: left;
 
     border-radius: 6px;

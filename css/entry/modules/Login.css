@@ -1,0 +1,168 @@
+@CHARSET "UTF-8";
+.txt3:hover .ceng4{
+    display:block;
+    padding: 0px;
+    border: 0px;
+}
+
+.txt3c:hover .ceng4{
+    display:block;
+    padding: 0px;
+    border: 0px;
+}
+
+.txt3c{
+    font-size:12px;
+    line-height:16px;
+    color:#ffffff;
+    text-align:center;
+    letter-spacing:0.14em;
+}
+
+.txt3c a:link {
+    text-decoration: none;
+    color: #ffffff;
+    text-align:center;
+    letter-spacing:0.14em;
+}
+
+.txt3c a:visited {
+    text-decoration: none;
+    color:#ffffff;
+    text-align:center;
+    letter-spacing:0.14em;
+}
+
+.txt3c a:hover{
+    text-decoration:  none;
+    color: #f8e9ab;
+    text-align:center;
+    letter-spacing:0.14em;
+}
+
+.txt3c a:active {
+    text-decoration: none;
+    color: #ffffff;
+    text-align:center;
+    letter-spacing:0.14em;
+}
+
+.input1{
+    height:18px;
+    width:130px;
+    border: 0px solid #000;
+}
+#loginform #loginbj1{
+    background:url(../../../build/images/loginbj2.png) no-repeat;
+
+}
+#loginform #loginbj2{
+    background:url(../../../build/images/loginbj1.png) no-repeat;
+}
+
+/*body{*/
+    /*margin:0;*/
+    /*padding:0;*/
+    /*font-size:12px;*/
+/*}*/
+
+
+
+#register .btn-black{
+    color:white;
+    text-decoration:none;
+}
+
+/*#logo{*/
+    /*width:950px;*/
+    /*margin:0px auto;*/
+/*}*/
+
+/*#logo .nav li{*/
+    /*float:left;*/
+    /*width:90px;*/
+    /*height:35px;*/
+/*}*/
+#help{
+    float:right;
+    color:#ffffff;
+}
+
+
+/*#register{*/
+    /*width:400px;*/
+    /*margin:0px auto;*/
+    /*padding:30px 0;*/
+/*}*/
+
+/*#register h1{*/
+    /*text-lign:center;*/
+    /*font-size:18px;*/
+/*}*/
+
+/*#register table{*/
+    /*width:100%;*/
+/*}*/
+
+/*#register .input-text{*/
+    /*border:1px solid #999999;*/
+    /*width:150px;*/
+/*}*/
+
+/*#register .input-button{*/
+    /*background:#ff7600;*/
+    /*color:#ffffff;*/
+    /*border-left:1px solid #ffffff;*/
+    /*borser-top:1px solid #ffffff;*/
+    /*border-right:1px solid #999999;*/
+    /*border-bottom:1px solid #999999;*/
+/*}*/
+
+/*#register #shangchuan form table .clause{*/
+    /*color:#ff7600;*/
+    /*text-decoration:none;*/
+/*}*/
+
+
+
+#login{
+    width:550px;
+    margin:0px auto;
+    padding:30px 0;
+}
+
+.txt2c{
+    line-height:20px;
+    color:#ffffff;
+    text-align:left;
+    text-indent:2px;
+    font-size: 10px;
+}
+
+/*div {*/
+    /*line-height: 40px;*/
+    /*word-break: break-all;*/
+    /*word-wrap: break-word;*/
+/*}*/
+
+.login{
+    cursor: pointer;
+    color:blue;
+}
+.registeBut{
+    width:65px;
+    height:22px;
+    background-color:#7d7f86 ;
+    text-align: center;
+}
+.registeBut:hover{
+    background: #640000;
+}
+.registeBut a :hover{
+    color:white;
+    cursor: pointer;
+}
+/*.registeBut a{*/
+    /*color:white;*/
+    /*display:block;*/
+/*}*/

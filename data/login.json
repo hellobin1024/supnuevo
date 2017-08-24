@@ -1,0 +1,21 @@
+[
+  {
+
+  "label": "Spanish",
+  "username": "USUARIO:",
+  "password": "CONTRASEÑA:",
+  "savepsw":"GUARDAR PASSWORD",
+  "login":"INGRESAR",
+  "register":"REGISTRARSE",
+  "img":"loginbj1"
+  },
+  {
+    "label": "Chinese",
+    "username": "用户名:",
+    "password": "密码:"  ,
+    "savepsw":"记住密码",
+    "login":"登录",
+    "register":"注册新用户",
+    "img":"loginbj2"
+  }
+]

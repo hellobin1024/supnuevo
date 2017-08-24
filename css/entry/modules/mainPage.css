@@ -175,13 +175,15 @@
 }
 #search {
     width: 100%;
-    min-width: 1122px;
+    min-width: 900px;
     height: 455px;
     background: url(../../../build/images/search.png) no-repeat center;
     position: relative;
     text-align:center;
 }
-
+#search .pei-caption p{
+    font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif;
+}
 .container-logo{/* 鎺у埗绗簩涓猟iv涓璴ogo鐨勪綅缃� */
     padding-right: 0px;
     padding-left: 0px;
@@ -202,34 +204,18 @@
     overflow: hidden;
 }
 .pei-caption {
-    position: absolute;
-    right: 22%;  /*鎺у埗娆㈣繋椤甸潰鈥滀腑鏂団�濇寜閽� */
-    bottom: 178px;
-    left: 10%;   /*鎺у埗娆㈣繋椤甸潰鈥滆タ鐝墮鏂団�濇寜閽� */
+    /*position: absolute;*/
+    /*right: 22%;  !*鎺у埗娆㈣繋椤甸潰鈥滀腑鏂団�濇寜閽� *!*/
+    /*bottom: 178px;*/
+    /*left: 10%;   !*鎺у埗娆㈣繋椤甸潰鈥滆タ鐝墮鏂団�濇寜閽� *!*/
     z-index: 10;
-    padding-top: 0px;
-    padding-bottom: 20px;
+    padding-top: 210px;
+    /*padding-top: 0px;*/
+    /*padding-bottom: 20px;*/
     color: #ffffff;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
-
-.container:before,
-.container:after {
-    display: table;
-    content: " ";
-}
-
-.container:after {
-    clear: both;
-}
-
-.container:before,
-.container:after {
-    display: table;
-    content: " ";
-}
-
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

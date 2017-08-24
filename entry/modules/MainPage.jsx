@@ -1,14 +1,11 @@
 import React from 'react';
 import {render} from 'react-dom';
-
+import {Link} from 'react-router';
 import "../../css/entry/modules/mainPage.css"
 
 
 var MainPage =React.createClass({
 
-
-    test:function (num) {
-    },
 
     render:function () {
         var contains=null;
@@ -45,25 +42,37 @@ var MainPage =React.createClass({
                     { /*第三部分*/}
                     <div id="search">
                         <div className="pei-caption">
-                            <p><a className="btn btn-lg btn-orange" href="EspanolLogin" role="button" style={{marginRight: '50px',marginBottom: '15px', textDecoration: 'none'}}>ESPAÑOL</a>
-                                <a className="btn btn-lg btn-orange" href="ChineseLogin" role="button" style={{marginLeft: '50px',marginBottom: '15px', textDecoration: 'none'}}>>中文</a></p>
+                            <p>
+                                <Link className="btn btn-lg btn-orange" style={{marginRight: '50px',marginBottom: '15px', textDecoration: 'none'}}
+                                      to={window.App.getAppRoute()+"/login?language=Spanish"}>
+                                    ESPAÑOL
+                                </Link>
+                                <Link className="btn btn-lg btn-orange" style={{marginRight: '50px',marginBottom: '15px', textDecoration: 'none'}}
+                                      to={window.App.getAppRoute()+"/login?language=Chinese"}>
+                                    中文
+                                </Link>
+                            </p>
                         </div>
                     </div>
                     { /*第四部分*/}
                     <div className="templatemo-welcome" id="templatemo-welcome">
                         <div className="container">
                             <div className="templatemo-slogan " style={{textAlign: 'center'}}>
-                                <br> </br>
                                 <span className="txt_darkgrey">BIENVENIDO A </span>
                                 <span className="txt_orange">SUPNUEVO</span>
-                            </div>
                             <p className="txt_slogan" style={{textAlign: 'center'}}>
-                                <i>Copyright &copy; 2015- S.O.S. srl / Todos los derechos reservados</i></p>
+                                <i>Copyright &copy; 2015- S.O.S. srl / Todos los derechos reservados</i>
+                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             return contains;
         },
-
+    componentWillMount:function () {
+        $(document).ready(function () {
+            document.body.style.backgroundColor = "#fff";
+        })
+    },
 })
 module.exports=MainPage;

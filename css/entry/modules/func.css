@@ -1,0 +1,263 @@
+#headline {
+    width: 100%;
+    min-width: 1002px;
+    height: 300px;
+    position: relative;
+    background: linear-gradient(to right bottom, rgba(0,0,0,0.7), rgba(0,0,0,0)), url(../../../build/images/headline.jpg);
+}
+#headline .center {
+    width: 1002px;
+    height: 300px;
+    margin: 0 auto;
+}
+#headline #prompt1 {
+    right: 10px;
+    bottom: 0px;
+    position: absolute;
+    z-index: 1000;
+    line-height: 31px;
+    font-size: 15px;
+    color: #fcfafb;
+    text-align: center;
+}
+#headline header {
+    padding: 100px 0 0 50px;
+}
+#headline h2 {
+    color: #eee;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+#headline h3 {
+    color: #eee;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#container {
+    width: 1100px;
+    /* height: 720px; */
+    margin: 30px auto;
+    margin-bottom: 100px;
+    /* background: url(../../../images/enterEspanol2/img/background.jpg) repeat-y; */
+}
+#container .sidebar {
+    width: 220px;
+    height: 700px;
+    float: right;
+    padding: 0 20px 20px 0;
+}
+#container .sidebox {
+    border: 1px solid #eee;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+#container .sidebox h2 {
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-indent: 58px;
+    /* text-align: center; */
+    height: 30px;
+    line-height: 30px;
+    background-color: #fafafa;
+    color: #666;
+    text-align: left;
+    margin:0px;
+}
+#download {
+    background-color: #b6eaef;
+    line-height: 50px;
+    text-align: center;
+}
+#download2 {
+    background-color: #b5827e;
+    line-height: 50px;
+    text-align: center;
+}
+#download input.button {
+    background: url(../../../build/images/downloadEspanol.png) no-repeat;
+    border: none;
+    cursor: pointer;
+    width: 85px;
+    height: 38px;
+    bottom: 2px;
+    margin-bottom: 20px;
+}
+#download2 input.button {
+    background: url(../../../build/images/downloadEspanol.png) no-repeat;
+    border: none;
+    cursor: pointer;
+    width: 85px;
+    height: 38px;
+    bottom: 2px;
+    margin-bottom: 20px;
+}
+#blank2 {
+    background: url(../../../build/images/blank2.jpg) no-repeat 200px center;
+}
+#prompt {
+    background-color: #b6eaef;
+    /* line-height: 50px; */
+    font-size: 12px;
+    font-weight: bold;
+    color: #7e231b;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#prompt2 {
+    background-color: #b5827e;
+    /* line-height: 50px; */
+    font-size: 12px;
+    font-weight: bold;
+    color: #7e231b;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.twoDimension {
+    background-color: #b5827e;
+    padding-top: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #7e231b;
+    text-align: center;
+}
+.twoDimensionCode {
+    background-color: #b5827e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+.twoDimensionCode img {
+    width: 100px;
+    height: 100px;
+}
+.twoDimensionblank {
+    background-color: #b5827e;
+    padding-top: 15px;
+    line-height: 300px;
+}
+#container .list {
+    float: left;
+    padding: 0 20px 0 30px;
+    background: url(../../../build/images/background.jpg) repeat;
+}
+#container .infor {
+    height: 35px;
+    line-height: 45px;
+    background-color: #eee;
+    margin: 0 0 15px 0;
+    width: 98%;
+}
+
+#container .more {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#container .paso1 {
+     width: 698px;
+     padding: 0;
+     margin: 0 0 20px 0;
+     /* border: 1px solid #eee; */
+     position: relative;
+ }
+#container figure {
+    display: inline-block;
+    padding: 4px;
+    color: #666;
+}
+#container .paso1 img {
+    float: left;
+    padding: 0px 30px 0px 0px;
+}
+#container .paso1 #point1 {
+    padding: 65px 0 0 25px;
+    color: #666;
+    line-height: 2;
+}
+#container .paso1 ol {
+    padding: 0 0 0 25px;
+    color: #666;
+    line-height: 2;
+    list-style-type: none;
+}
+#container .paso1 span{
+    font-size: medium;
+}
+
+#container .paso1 mark {
+    background-color: #fff;
+    border: 1px solid #458b00;
+    border-radius: 4px;
+    padding: 0 5px;
+    color: #458b00;
+}
+#container .news {
+    width: 698px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    /* border: 1px solid #eee; */
+    position: relative;
+}
+#container .news img {
+    float: left;
+    padding: 30px 30px 60px 0px;
+}
+#container .news ol {
+    padding: 0 0 0 25px;
+    color: #666;
+    line-height: 2;
+    list-style-type: none;
+}
+#container .news span {
+    font-size: medium;
+}
+#container .news mark {
+    background-color: #fff;
+    border: 1px solid #458b00;
+    border-radius: 4px;
+    padding: 0 5px;
+    color: #458b00;
+}
+#container .news #point3 {
+    padding: 0 0 0 25px;
+    color: #666;
+    line-height: 2;
+}
+.news h5 {
+    text-decoration: underline;
+}
+#container .news p {
+    color: #666;
+    line-height: 2;
+}
+#container .news1 p {
+    color: #666;
+    line-height: 2;
+}
+#container .news1 {
+    width: 770px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    /* border: 1px solid #eee; */
+    position: relative;
+}
